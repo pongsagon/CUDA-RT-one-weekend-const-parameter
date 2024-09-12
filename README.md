@@ -1,3 +1,6 @@
+
+![cudart](https://github.com/user-attachments/assets/fb62c801-b014-408a-87e0-ed84861650fe)
+
 # CUDA-RT-one-weekend-const-parameter
 Modify Ray Tracing in One Weekend by Peter Shirley http://in1weekend.blogspot.com/2016/01/ray-tracing-in-one-weekend.html 
 and CUDA code by Roger Allen https://github.com/rogerallen/raytracinginoneweekendincuda.  <br />
