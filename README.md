@@ -11,7 +11,7 @@ I get around 10x speed up compare to the orignial CUDA RT version.
 On RTX4090, Render at 1800x1000, 16 samples/pixel, can run at 15-20 fps.<br />
 Const kernel parameters can support 32KB of data.
 The RT in One weekend scenes use around 20KB. <br />
-The number of source code is less the orignial one from Roger Allen because I cut and merge the code here and there to make things work. <br />
+The number of source files is less than the orignial one from Roger Allen because I cut and merge the code here and there to make things work. <br />
 
 This version use CUDA/OpenGL interop to draw the result as a full screen texture quad.
 I am also using shader.h from learnopengl.com by Joey de Vries to init some shader codes.
