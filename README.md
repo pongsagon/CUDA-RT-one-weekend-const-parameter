@@ -7,7 +7,9 @@ and CUDA code by Roger Allen https://github.com/rogerallen/raytracinginoneweeken
 
 In this version, I use const kernel parameter to store all the scene and cam data.<br />
 https://developer.nvidia.com/blog/cuda-12-1-supports-large-kernel-parameters/ <br />
-I get around 10x speed up compare to the orignial CUDA RT version.  Const kernel parameters can support 32KB of data <br />
+I get around 10x speed up compare to the orignial CUDA RT version.  
+On RTX4090, Render at 1800x1000, 16 samples/pixel, can run at 15-20 fps.<br />
+Const kernel parameters can support 32KB of data.
 The RT in One weekend scenes use around 20KB. <br />
 The number of source code is less the orignial one from Roger Allen because I cut and merge the code here and there to make things work. <br />
 
