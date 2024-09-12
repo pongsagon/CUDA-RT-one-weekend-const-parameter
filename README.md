@@ -8,7 +8,7 @@ I get around 10x speed up compare to the orignial CUDA RT version.  Const kernel
 The RT in One weekend scenes use around 20KB. <br />
 The number of source code is less the orignial one from Roger Allen because I cut and merge the code here and there to make things work. <br />
 
-This version use CUDA/OpenGL interop to draw the result as a full screen texture quad.<br />  
+This version use CUDA/OpenGL interop to draw the result as a full screen texture quad.
 I am also using shader.h from learnopengl.com by Joey de Vries to init some shader codes.
 
 ## User guides
