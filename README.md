@@ -14,7 +14,7 @@ The RT in One weekend scenes use around 20KB. <br />
 The number of source files is less than the orignial one from Roger Allen because I cut and merge the code here and there to make things work. <br />
 
 This version use CUDA/OpenGL interop to draw the result as a full screen texture quad.
-I am also using shader.h from learnopengl.com by Joey de Vries to init some shader codes.
+I am also using shader.h and some other gl code snippets from learnopengl.com by Joey de Vries to init some shader codes.
 
 ## User guides
 use WSAD key to move the camera <br />
