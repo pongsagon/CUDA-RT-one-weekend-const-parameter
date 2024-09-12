@@ -15,7 +15,7 @@ I am also using shader.h from learnopengl.com by Joey de Vries to init some shad
 use WSAD key to move the camera <br />
 drage left mouse to rotate the camera
 
-## Compilation guides (WIP)
+## Compilation using MSVC 2022 (WIP)
 Library used
 - GLFW
 - glew
